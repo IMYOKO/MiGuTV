@@ -1,5 +1,5 @@
 @charset "utf-8";
-body { font-family: "Helvetica Neue LT Pro","Helvetica","microsoft yahei","Hiragino Sans GB W3"; margin: 0 auto; padding: 0; color: #666; font-size: 20px; background: #f5f5f5; max-width: 1200px; }
+body { font-family: "Helvetica Neue LT Pro","Helvetica","microsoft yahei","Hiragino Sans GB W3"; margin: 0 auto; padding: 0; color: #666; font-size: 20px; background: #fff; max-width: 1200px; }
 html, div, p, h1, h2, h3, h4, h5, h6, blockquote, ol, ul, li, dl, dt, dd, form, fieldset, legend, button, input, textarea, pre, code, th, td { margin: 0; padding: 0; }
 button, input, select, textarea { font-family: "microsoft yahei"; }
 button, input, select, textarea{ font-size: 100%; }

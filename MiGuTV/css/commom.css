@@ -1,0 +1,57 @@
+#nav-smartSetup {
+	position: fixed;
+	z-index: 11;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background:#fff;
+	box-sizing: border-box;
+}
+.ui-navigator {
+    display: -webkit-box;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.ui-navigator .ui-navigator-list, .ui-navigator .ui-navigator-fix {
+    display: -webkit-box;
+    -webkit-box-flex: 1;
+}
+
+.ui-navigator .ui-navigator-list li{
+    -webkit-box-flex: 1;
+}
+
+.ui-navigator .ui-navigator-list li a, .ui-navigator .ui-navigator-fix{
+    display: -webkit-box;
+    -webkit-box-sizing: border-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+}
+.ui-navigator .ui-navigator-wrapper{
+    -webkit-box-flex: 1;
+}
+
+.ui-navigator .ui-navigator-list, .ui-navigator .ui-navigator-fix {
+    display: -webkit-box;
+    -webkit-box-flex: 0;      /*去掉-webkit-box-flex属性，可滑动tab不平分*/
+}
+
+.ui-navigator .ui-navigator-list li{
+    -webkit-box-flex: 0;
+}
+#nav-smartSetup li a, .ui-navigator .ui-navigator-fix {
+	height: 45px;
+	line-height: 45px;
+	padding: 0 16px;
+	font-size: 15px;
+	color: #333;
+	display: inline-block;
+	text-align: center;
+}
+#nav-smartSetup li:first-child a {
+	padding-left: 12px;
+}
+#nav-smartSetup li a.cur, .ui-navigator .ui-navigator-fix.cur {
+	color: #333;
+	font-weight: bold;
+}
