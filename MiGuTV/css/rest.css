@@ -5,7 +5,7 @@ button, input, select, textarea { font-family: "microsoft yahei"; }
 button, input, select, textarea{ font-size: 100%; }
 input, img, select { vertical-align:middle; border:none; } 
 input { vertical-align: middle; }
-input::-webkit-outer-spin-button, input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0;}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
 input, textarea{-webkit-appearance: none; box-shadow: none !important; }
 
 /*placeholder默认字体为微软雅黑*/
