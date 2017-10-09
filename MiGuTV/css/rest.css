@@ -1,0 +1,47 @@
+
+body { font-family: "Helvetica Neue LT Pro","Helvetica","microsoft yahei","Hiragino Sans GB W3"; margin: 0; padding: 0; color: #666; font-size: 20px; background: #f5f5f5; }
+html, div, p, h1, h2, h3, h4, h5, h6, blockquote, ol, ul, li, dl, dt, dd, form, fieldset, legend, button, input, textarea, pre, code, th, td { margin: 0; padding: 0; }
+button, input, select, textarea { font-family: "microsoft yahei"; }
+button, input, select, textarea{ font-size: 100%; }
+input, img, select { vertical-align:middle; border:none; } 
+input { vertical-align: middle; }
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0;}
+input, textarea{-webkit-appearance: none; box-shadow: none !important; }
+
+/*placeholder默认字体为微软雅黑*/
+::-webkit-input-placeholder { font-family: "microsoft yahei"; color: #999999; }
+:-moz-placeholder { font-family: "microsoft yahei"; color: #999999; }
+::-moz-placeholder { font-family: "microsoft yahei"; color: #999999; }
+ :-ms-input-placeholder { font-family: "microsoft yahei"; color: #999999; }
+img, button{ border:0; outline: 0;}
+header, section, footer {  display: block; }
+sumbit { display:none; }
+iframe { display:block }
+.border_btn {border: none; cursor: pointer; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+ul, ol, li, submit { list-style: none; border: none; }
+address, caption, cite, code, dfn, em, th, var{ font-style: normal; font-weight: 500; }
+code, kbd, pre, samp { font-family: "microsoft yahei"; } 
+em, i { font-weight: normal; font-style: normal; }
+fieldset, img{ border: 0; }
+table { border-collapse: collapse; border-spacing: 0; }
+th { text-align:inherit; }
+:focus { outline:0; }
+button { border:none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; }
+a { outline: none; color: #5a5a5a; text-decoration: none; }
+a.link { color: #666; }
+a:hover { text-decoration: none; }
+/*清除浮动*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0px;
+	visibility: hidden;
+}
+
+.clear {
+	clear: both;
+}
