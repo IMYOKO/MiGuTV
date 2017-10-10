@@ -68,7 +68,7 @@
 }
 
 /*热播推荐*/
-.hot-tv-list {
+.hot-tv-list, .hot-tvgb-list {
 	padding: 12px 0;
 }
 .hot-tv-title {
@@ -83,10 +83,10 @@
 	float: left;
 }
 .hot-tv-item-left {
-	padding-right: 5px;
+	padding-right: 6px;
 }
 .hot-tv-item-right {
-	padding-left: 5px;
+	padding-left: 6px;
 }
 .hot-tv-item a {
 	border-radius: 4px;
@@ -131,3 +131,30 @@
 	padding-right: 8px;
 }
 
+/*新剧跟播*/
+.hot-tvgb-list li {
+	width: 33.33%;
+	float: left;
+}
+.hot-tv-item-midd {
+	padding: 0 3px;
+}
+.hot-tab-list {
+	color: #999;
+	margin-top: 12px;
+}
+.hot-tab-list li {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.hot-tab-list li a {
+	font-size: 12px;
+	height: 19px;
+	line-height: 19px;
+	text-align: center;
+	border: 1px solid #aaa;
+	border-radius: 20px;
+	padding: 0 12px;
+	display: block;
+}
