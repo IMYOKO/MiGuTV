@@ -161,12 +161,18 @@
 }
 
 /*other*/
+.pt0 {
+	padding-top: 0;
+}
+.pt10 {
+	padding-top: 10px;
+}
 .pt45 {
 	padding-top: 45px;
 }
+.pb0 {
+	padding-bottom: 0;
+}
 .pb48 {
 	padding-bottom: 48px;
-}
-.pt0 {
-	padding-top: 0;
 }

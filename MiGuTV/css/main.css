@@ -280,6 +280,13 @@
 	width: 4px;
 	height: 16px;
 	background: #fa1b1b;
+	border-radius: 2px;
+	margin-right: 4px;
 	display: block;
 	float: left;
+}
+.hot-tv-title02>em {
+	color: #999;
+	float: right;
+	font-size: 12px;
 }
