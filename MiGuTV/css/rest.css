@@ -45,3 +45,9 @@ a:hover { text-decoration: none; }
 .clear {
 	clear: both;
 }
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}

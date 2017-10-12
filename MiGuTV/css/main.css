@@ -158,3 +158,98 @@
 	padding: 0 12px;
 	display: block;
 }
+
+/*播放详情页面*/
+.tv-play-box {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+#tv-play-bg {
+	min-height: 202px;
+}
+.tv-play-content {
+	padding: 0 12px;
+	position: relative;
+}
+.tv-play-box>img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.tv-play-title {
+	padding: 30px 0 10px;
+}
+.tv-play-title h2 {
+	font-size: 19px;
+	line-height: 19px;
+	width: 80%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.more-info {
+	color: #999;
+	height: 19px;
+	line-height: 19px;
+	display: block;
+	font-size: 12px;
+}
+.more-info>i {
+	width: 7px;
+	height: 11px;
+	display: inline-block;
+	float: right;
+	margin: 4px 0 0 2px;
+	background: url(../images/icon_goto@2x.png) center center no-repeat;
+	background-size: contain;
+}
+.tv-lable-box {
+	color: #666;
+	font-size: 12px;
+}
+.tv-lable-box span {
+	margin-right: 10px;
+}
+.tv-share-box {
+	height: 16px;
+	line-height: 16px;
+	padding-top: 10px;
+}
+.tv-share-box span {
+	color: #999;
+	font-size: 12px;
+}
+.tv-comments-box i {
+	width: 18px;
+	height: 16px;
+	float: left;
+	display: inline-block;
+	margin-right: 4px;
+	background: url(../images/icon_py@2x.png) center center no-repeat;
+	background-size: contain;
+}
+.tv-share-item a {
+	margin-left: 10px;
+	display: inline-block;
+}
+.tv-share-item i {
+	height: 16px;
+	display: inline-block;
+}
+.tv-share-item i.icon-share {
+	width: 16px;
+	background: url(../images/icon_fx@2x.png) center center no-repeat;
+	background-size: contain;
+}
+.tv-share-item i.icon-collect {
+	width: 18px;
+	background: url(../images/icon_sc@2x.png) center center no-repeat;
+	background-size: contain;
+}
+.tv-share-item i.icon-upload {
+	width: 18px;
+	background: url(../images/icon_xz@2x.png) center center no-repeat;
+	background-size: contain;
+}

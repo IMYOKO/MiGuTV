@@ -14,127 +14,40 @@
 	<link rel="stylesheet" href="css/commom.css">
 </head>
 <body>
-		<!--热播-->
-		<div class="hot-tv-box pt0">
-			<h2 class="hot-tv-title">新剧跟播</h2>
-			<ul class="hot-tvgb-list clearfix">
-				<li>
-					<div class="hot-tv-item hot-tv-item-left">
-						<a href="javascript:void(0)">
-							<img src="images/img_xjgb@2x.png" alt=""/>
-							<div class="hottv-title-box">
-								<p>更新至26集</p>
-							</div>
-						</a>
-						<h3>大王不容易</h3>
-						<p>霸道大王俏厨娘错位遇到爱</p>
-					</div>
-				</li>
-				<li>
-					<div class="hot-tv-item hot-tv-item-midd">
-						<a href="javascript:void(0)">
-							<img src="images/img_xjgb@2x.png" alt=""/>
-							<div class="hottv-title-box">
-								<p>更新至26集</p>
-							</div>
-						</a>
-						<h3>大王不容易</h3>
-						<p>霸道大王俏厨娘错位遇到爱</p>
-					</div>
-				</li>
-				<li>
-					<div class="hot-tv-item hot-tv-item-right">
-						<a href="javascript:void(0)">
-							<img src="images/img_xjgb@2x.png" alt=""/>
-							<div class="hottv-title-box">
-								<p>更新至26集</p>
-							</div>
-						</a>
-						<h3>大王不容易</h3>
-						<p>霸道大王俏厨娘错位遇到爱</p>
-					</div>
-				</li>
-			</ul>
-			<ul class="hot-tvgb-list clearfix">
-				<li>
-					<div class="hot-tv-item hot-tv-item-left">
-						<a href="javascript:void(0)">
-							<img src="images/img_xjgb@2x.png" alt=""/>
-							<div class="hottv-title-box">
-								<p>更新至26集</p>
-							</div>
-						</a>
-						<h3>大王不容易</h3>
-						<p>霸道大王俏厨娘错位遇到爱</p>
-					</div>
-				</li>
-				<li>
-					<div class="hot-tv-item hot-tv-item-midd">
-						<a href="javascript:void(0)">
-							<img src="images/img_xjgb@2x.png" alt=""/>
-							<div class="hottv-title-box">
-								<p>更新至26集</p>
-							</div>
-						</a>
-						<h3>大王不容易</h3>
-						<p>霸道大王俏厨娘错位遇到爱</p>
-					</div>
-				</li>
-				<li>
-					<div class="hot-tv-item hot-tv-item-right">
-						<a href="javascript:void(0)">
-							<img src="images/img_xjgb@2x.png" alt=""/>
-							<div class="hottv-title-box">
-								<p>更新至26集</p>
-							</div>
-						</a>
-						<h3>大王不容易</h3>
-						<p>霸道大王俏厨娘错位遇到爱</p>
-					</div>
-				</li>
-			</ul>
+	<div class="tv-play-box">
+		<img src="images/tv_hkyzy@2x.png" id="tv-play-img" alt="" />
+	</div>
+	<div id="tv-play-bg"></div>
+	<div class="tv-play-content" id="tv-play-content">
+		<div class="tv-play-title clearfix">
+			<h2 class="fl">那年花开月正圆</h2>
+			<a href="javascript:void(0)" class="more-info fr">
+				简介<i></i>
+			</a>
 		</div>
-		<ul class="hot-tvgb-list clearfix">
-				<li>
-					<div class="hot-tv-item hot-tv-item-left">
-						<a href="javascript:void(0)">
-							<img src="images/img_xjgb@2x.png" alt=""/>
-							<div class="hottv-title-box">
-								<p>更新至26集</p>
-							</div>
-						</a>
-						<h3>大王不容易</h3>
-						<p>霸道大王俏厨娘错位遇到爱</p>
-					</div>
-				</li>
-				<li>
-					<div class="hot-tv-item hot-tv-item-midd">
-						<a href="javascript:void(0)">
-							<img src="images/img_xjgb@2x.png" alt=""/>
-							<div class="hottv-title-box">
-								<p>更新至26集</p>
-							</div>
-						</a>
-						<h3>大王不容易</h3>
-						<p>霸道大王俏厨娘错位遇到爱</p>
-					</div>
-				</li>
-				<li>
-					<div class="hot-tv-item hot-tv-item-right">
-						<a href="javascript:void(0)">
-							<img src="images/img_xjgb@2x.png" alt=""/>
-							<div class="hottv-title-box">
-								<p>更新至26集</p>
-							</div>
-						</a>
-						<h3>大王不容易</h3>
-						<p>霸道大王俏厨娘错位遇到爱</p>
-					</div>
-				</li>
-			</ul>
+		<div class="tv-lable-box">
+			<span>9.1分</span><span>古装•励志</span><span>播放量：3000万次</span>
 		</div>
-		<!--热播 end-->
+		<div class="tv-share-box clearfix">
+			<span class="tv-comments-box fl"><i></i>2096</span>
+			<span class="tv-share-item fr">
+				<a href="javascript:void(0)"><i class="icon-share"></i></a>
+				<a href="javascript:void(0)"><i class="icon-collect"></i></a>
+				<a href="javascript:void(0)"><i class="icon-upload"></i></a>
+			</span>
+		</div>
 	</div>
 	
+	<!--js-->
+	<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+	<script type="text/javascript">
+		function mtHeight(){
+			var w = $(window).width();
+			var h = parseInt(w*454/720);
+			$('#tv-play-bg').css('height',h+'px');
+		}
+		mtHeight();
+	</script>
+	<!--js end-->
 </body>
 </html>
