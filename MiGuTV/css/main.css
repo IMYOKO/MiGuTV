@@ -273,3 +273,13 @@
 	background: url(../images/icon_goto@2x.png) center center no-repeat;
 	background-size: contain;
 }
+.hot-tv-title02 {
+	font-size: 12px;
+}
+.hot-tv-title02>span {
+	width: 4px;
+	height: 16px;
+	background: #fa1b1b;
+	display: block;
+	float: left;
+}
