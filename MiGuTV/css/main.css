@@ -197,11 +197,11 @@
 	font-size: 12px;
 }
 .more-info>i {
-	width: 7px;
+	width: 6px;
 	height: 11px;
 	display: inline-block;
 	float: right;
-	margin: 4px 0 0 2px;
+	margin: 4px 0 0 4px;
 	background: url(../images/icon_goto@2x.png) center center no-repeat;
 	background-size: contain;
 }
@@ -213,8 +213,8 @@
 	margin-right: 10px;
 }
 .tv-share-box {
-	height: 16px;
-	line-height: 16px;
+	height: 23px;
+	line-height: 22px;
 	padding-top: 10px;
 }
 .tv-share-box span {
@@ -223,7 +223,7 @@
 }
 .tv-comments-box i {
 	width: 18px;
-	height: 16px;
+	height: 22px;
 	float: left;
 	display: inline-block;
 	margin-right: 4px;
@@ -231,6 +231,7 @@
 	background-size: contain;
 }
 .tv-share-item a {
+	float: left;
 	margin-left: 10px;
 	display: inline-block;
 }
@@ -251,5 +252,24 @@
 .tv-share-item i.icon-upload {
 	width: 18px;
 	background: url(../images/icon_xz@2x.png) center center no-repeat;
+	background-size: contain;
+}
+.tv-choose-title {
+	font-size: 12px;
+}
+.tv-choose-box {
+	padding-top: 10px;
+}
+.tv-choose-box a {
+	color: #999;
+	float: right;
+}
+.tv-choose-box a i {
+	width: 6px;
+	height: 11px;
+	display: inline-block;
+	float: right;
+	margin: 3px 0 0 4px;
+	background: url(../images/icon_goto@2x.png) center center no-repeat;
 	background-size: contain;
 }

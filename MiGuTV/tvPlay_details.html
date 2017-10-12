@@ -10,8 +10,52 @@
     <meta name="format-detection" content="address=no">
 	<title>那年花开月正圆</title>
 	<link rel="stylesheet" href="css/rest.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/commom.css">
+	<style type="text/css">
+		.swiper-container {
+	        width: 100%;
+	        height: 40px;
+	        margin: 20px auto;
+	    }
+	    .swiper-slide {
+	    	color: #333;
+	        text-align: center;
+	        font-size: 12px;
+	        font-weight: normal;
+	        background: url(images/icon_nac_ji@2x.png) center center no-repeat;
+	        background-size: contain;
+	        
+	        /* Center slide text vertically */
+	        display: -webkit-box;
+	        display: -ms-flexbox;
+	        display: -webkit-flex;
+	        display: flex;
+	        -webkit-box-pack: center;
+	        -ms-flex-pack: center;
+	        -webkit-justify-content: center;
+	        justify-content: center;
+	        -webkit-box-align: center;
+	        -ms-flex-align: center;
+	        -webkit-align-items: center;
+	        align-items: center;
+	    }
+	    .swiper-wrapper .active {
+	    	background: url(images/icon_ac_ji@2x.png) center center no-repeat;
+	        background-size: contain;
+	    }
+	    .swiper-wrapper a {
+	    	width: 100%;
+	    	height: 100%;
+	    	color: #333;
+	    	display: block;
+	    	line-height: 40px;
+	    }
+	    .swiper-wrapper .active a {
+	    	color: #fff;
+	    }
+	</style>
 </head>
 <body>
 	<div class="tv-play-box">
@@ -30,15 +74,80 @@
 		</div>
 		<div class="tv-share-box clearfix">
 			<span class="tv-comments-box fl"><i></i>2096</span>
-			<span class="tv-share-item fr">
+			<span class="tv-share-item clearfix fr">
 				<a href="javascript:void(0)"><i class="icon-share"></i></a>
 				<a href="javascript:void(0)"><i class="icon-collect"></i></a>
 				<a href="javascript:void(0)"><i class="icon-upload"></i></a>
 			</span>
 		</div>
+		<div class="tv-choose-box">
+			<h2 class="tv-choose-title">剧集<a href="javascript:void(0)">会员22点跟播卫视&nbsp;&nbsp;非会员次日22点观看<i></i></a></h2>
+			<div class="swiper-container">
+		        <div class="swiper-wrapper">
+		            <div class="swiper-slide active">
+		            	<a href="javascript:void(0)">1</a>
+		            </div>
+		            <div class="swiper-slide">
+		            	<a href="javascript:void(0)">2</a>
+		            </div>
+		            <div class="swiper-slide">
+		            	<a href="javascript:void(0)">3</a>
+		            </div>
+		            <div class="swiper-slide">
+		            	<a href="javascript:void(0)">4</a>
+		            </div>
+		            <div class="swiper-slide">
+		            	<a href="javascript:void(0)">5</a>
+		            </div>
+		            <div class="swiper-slide">
+		            	<a href="javascript:void(0)">6</a>
+		            </div>
+		            <div class="swiper-slide">
+		            	<a href="javascript:void(0)">7</a>
+		            </div>
+		            <div class="swiper-slide">
+		            	<a href="javascript:void(0)">8</a>
+		            </div>
+		            <div class="swiper-slide">
+		            	<a href="javascript:void(0)">9</a>
+		            </div>
+		            <div class="swiper-slide">
+		            	<a href="javascript:void(0)">10</a>
+		            </div>
+		        </div>
+		    </div>
+		</div>
 	</div>
 	
 	<!--js-->
+	<script type="text/javascript" src="js/swiper.min.js"></script>
+	<script type="text/javascript">
+		var swiper = new Swiper('.swiper-container', {
+	        pagination: '.swiper-pagination',
+	        slidesPerView: 7,
+	        paginationClickable: true,
+	        spaceBetween: 10,
+	        freeMode: true,
+	        breakpoints: {
+            1024: {
+                slidesPerView: 8,
+                spaceBetween: 10
+            },
+            768: {
+                slidesPerView: 7,
+                spaceBetween: 10
+            },
+            640: {
+                slidesPerView: 7,
+                spaceBetween: 10
+            },
+            320: {
+                slidesPerView: 5,
+                spaceBetween: 10
+            }
+        }
+	    });
+	</script>
 	<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
 	<script type="text/javascript">
 		function mtHeight(){
