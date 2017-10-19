@@ -297,10 +297,12 @@
 	padding: 0 10px;
 }
 .hot-tv-content {
-	padding-bottom: 10px;
+	margin: 10px 0;
 }
 .hot-tv-paly-box {
 	position: relative;
+	border-radius: 4px;
+	overflow: hidden;
 }
 .hot-play-img {
 	width: 100%;
@@ -367,6 +369,7 @@
 }
 .tv-info-log img {
 	width: 100%;
+	display: block;
 }
 .tv-info-author {
 	flex: 2;
