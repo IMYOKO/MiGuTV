@@ -294,7 +294,7 @@
 
 /*热点*/
 .hot-warpper {
-	padding: 0 10px;
+	padding: 0 10px 48px;
 }
 .hot-tv-content {
 	margin: 10px 0;
@@ -411,5 +411,175 @@
 	width: 2px;
 	height: 15px;
 	background: url(../images/icon_tv_more@2x.png) center center no-repeat;
+	background-size: contain;
+}
+
+
+/*我的*/
+.user-body {
+	background: #eee;
+}
+.userIndex-warpper {
+	margin-bottom: 48px;
+}
+.user-header {
+	background: #fff;
+	position: relative;
+	height: 86px;
+	padding: 0 12px;
+}
+.user-header-box {
+	padding-top: 18px;
+	height: 68px;
+	border-bottom: 1px solid #eee;
+}
+.head-img-box {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 15px;
+	margin-left: 5px;
+}
+.head-img-box img {
+	width: 100%;
+	display: block;
+}
+.user-name-box {
+	font-size: 14px;
+	line-height: 50px;
+	font-weight: 700;
+}
+.cheack-btn {
+	position: absolute;
+	right: 17px;
+	top: 50%;
+	margin-top: -15px;
+	width: 65px;
+	height: 30px;
+	font-size: 13px;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+	background: url(../images/icon_cheack_btn@2x.png) center center no-repeat;
+	background-size: 65px 30px;
+	cursor: pointer;
+}
+.user-useInfo {
+	padding: 0 12px;
+	background: #fff;
+}
+.user-useInfo li {
+	width: 50%;
+	float: left;
+}
+.user-useInfo li a {
+	display: block;
+	padding: 20px 0;
+}
+.user-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.user-item dt {
+	margin-right: 10px;
+}
+.user-item dt img {
+	width: 29px;
+	height: 26px;
+}
+.user-item dd h4 {
+	color: #333;
+	font-size: 14px;
+	line-height: 14px;
+	margin-bottom: 4px;
+}
+.user-item dd p {
+	font-size: 12px;
+	line-height: 12px;
+}
+.yellow-color {
+	color: #ffb400;
+}
+.blue-color {
+	color: #2378f0;
+}
+.user-item-line {
+	border-right: 1px solid #eee;
+}
+
+/*播放*/
+.user-other-warpper {
+	margin-top: 8px;
+	background: #fff;
+	padding: 0 12px;
+}
+.user-app-list {
+	margin-bottom: 8px;
+}
+.user-app-list li a {
+	display: block;
+	height: 56px;
+	color: #333;
+	line-height: 56px;
+	font-size: 16px;
+	border-bottom: 1px solid #eee;
+}
+.user-app-list li:last-child a {
+	border-bottom: 1px solid #fff;
+}
+.user-app-list li a i {
+	display: block;
+	float: right;
+	width: 6px;
+	height: 12px;
+	padding-top: 44px;
+	background: url(../images/icon_left2@2x.png) center center no-repeat;
+	background-size: contain;
+}
+.user-app-list li a span {
+	display: block;
+	float: left;
+	width: 14px;
+	height: 14px;
+	padding-top: 42px;
+	margin-right: 15px;
+}
+.icon-lxhc {
+	background: url(../images/icon_lxhc@2x.png) center center no-repeat;
+	background-size: contain;
+}
+.icon-wdzj {
+	background: url(../images/icon_wdzj@2x.png) center center no-repeat;
+	background-size: contain;
+}
+.icon-zbyy {
+	background: url(../images/icon_zbyy@2x.png) center center no-repeat;
+	background-size: contain;
+}
+.icon-scjl {
+	background: url(../images/icon_scjl@2x.png) center center no-repeat;
+	background-size: contain;
+}
+/**/
+.icon-fxkhd {
+	background: url(../images/icon_fxkhd@2x.png) center center no-repeat;
+	background-size: contain;
+}
+.icon-yjfk {
+	background: url(../images/icon_yjfk@2x.png) center center no-repeat;
+	background-size: contain;
+}
+.icon-cjwt {
+	background: url(../images/icon_cjwt@2x.png) center center no-repeat;
+	background-size: contain;
+}
+.icon-gywm {
+	background: url(../images/icon_gywm@2x.png) center center no-repeat;
+	background-size: contain;
+}
+.icon-setting {
+	background: url(../images/icon_setting@2x.png) center center no-repeat;
 	background-size: contain;
 }
