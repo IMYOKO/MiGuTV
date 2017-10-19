@@ -380,5 +380,36 @@
 	text-overflow: ellipsis;
 	white-space: nowrap;
 }
-.tv-info-right {
+.tv-info-right a {
+	display: block;
+	float: left;
+	font-size: 12px;
+	margin-left: 10px;
+}
+.tv-info-right a:first-of-type {
+	margin-left: 0;
+}
+.tv-info-right a i {
+	display: block;
+	margin-right: 4px;
+	padding-top: 9px;
+	float: left;
+}
+.icon-love {
+	width: 16px;
+	height: 17px;
+	background: url(../images/icon_love@2x.png) center center no-repeat;
+	background-size: contain;
+}
+.icon-pl {
+	width: 17px;
+	height: 17px;
+	background: url(../images/icon_pl@2x.png) center center no-repeat;
+	background-size: contain;
+}
+.icon-more {
+	width: 2px;
+	height: 15px;
+	background: url(../images/icon_tv_more@2x.png) center center no-repeat;
+	background-size: contain;
 }
