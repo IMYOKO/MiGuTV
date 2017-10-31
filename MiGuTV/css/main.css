@@ -546,6 +546,10 @@
 	padding-top: 42px;
 	margin-right: 15px;
 }
+.icon-history {
+	background: url(../images/icon_history_play@2x.png) center center no-repeat;
+	background-size: contain;
+}
 .icon-lxhc {
 	background: url(../images/icon_lxhc@2x.png) center center no-repeat;
 	background-size: contain;
@@ -583,3 +587,4 @@
 	background: url(../images/icon_setting@2x.png) center center no-repeat;
 	background-size: contain;
 }
+
